@@ -6,6 +6,8 @@ const paleta = document.getElementById("paleta");
 boton.addEventListener("click", function () {
     const cantidad = Number(selector.value);
 
+paleta.innerHTML ="";
+
     for (let i = 0; i < cantidad; i++) {
         const caja = document.createElement("div");
         caja.classList.add("color");

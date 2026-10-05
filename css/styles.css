@@ -3,34 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.color {
+  min-height: 120px;
+  background-color:brown;
+}
 
-.terracota-1 {
-  min-height: 120px;
-  background-color:#972828;
-   
-}
-.terracota-2 {
-  min-height: 120px;
-  background-color:#DA6556;
-   
-}
-.terracota-3 {
-  min-height: 120px;
-  background-color:#E45742;
-   
-}
-.mostaza {
-    min-height: 120px;
-    background-color:#EB7F31;
-   
-}
-.miel-1 {
-  min-height: 120px; 
-  background-color:#FCAD38;
-   
-}
-.miel-2 {
-  min-height: 120px; 
-  background-color:#FFCB56;
-   
-}
+

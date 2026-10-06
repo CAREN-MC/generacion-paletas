@@ -12,8 +12,9 @@ paleta.innerHTML ="";
         const caja = document.createElement("div");
         caja.classList.add("color");
         const luminosidad = Math.floor(Math.random() * 41) + 40;
+        const matiz = Math.floor(Math.random() * 361);
         caja.textContent = "Color";
-        caja.style.backgroundColor =`hsl(30, 80%,${luminosidad}%)`;
+        caja.style.backgroundColor = `hsl(${matiz}, 80%, ${luminosidad}%)`;
         paleta.appendChild(caja);
     }
 });

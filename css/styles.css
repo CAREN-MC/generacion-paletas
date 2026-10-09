@@ -1,6 +1,6 @@
   #paleta {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
   .color {
@@ -82,4 +82,11 @@
     color: black;
     border-top: 1px solid #818b8d;
     margin-top: 40px;
+  }
+ 
+   @media (max-width: 480px) {
+      #paleta {
+      grid-template-columns: 1fr;
+    }
+    
   }
